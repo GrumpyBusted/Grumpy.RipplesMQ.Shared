@@ -57,7 +57,9 @@
     <Compile Include="Messages\SubscribeHandlerRegisterReplyMessage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Grumpy.Ripples.Shared.nuspec" />
+    <None Include="Grumpy.Ripples.Shared.nuspec">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
