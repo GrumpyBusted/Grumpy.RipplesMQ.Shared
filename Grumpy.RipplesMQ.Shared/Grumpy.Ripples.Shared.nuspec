@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>Grumpy.RipplesMQ.Shared</id>
+        <version>0</version>
+        <title>Grumpy.RipplesMQ.Shared</title>
+        <description>Shared DTOs and Functionality between the client and server packages of RipplesMQ</description>
+        <summary>
+            This is the definition of the message DTOs used to communicate between the Message Broker Client and Server.
+        </summary>
+        <tags>MSMQ MS Queue Bus Message MessageBroker Broker Publish Subscribe Request Response Consume</tags>
+        <authors>Anders Busted-Janum</authors>
+        <owners>GrumpyBusted</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <language>en-US</language>
+        <projectUrl>https://github.com/GrumpyBusted/Grumpy.RipplesMQ.Shared</projectUrl>
+        <licenseUrl>https://github.com/GrumpyBusted/Grumpy.RipplesMQ.Shared/blob/master/LICENSE</licenseUrl>
+        <copyright>Copyright © Busted-Janum 2018</copyright>
+    </metadata>
+    <files>
+        <file src="Grumpy.RipplesMQ.Shared.dll" target="lib\net451" />
+        <file src="Grumpy.RipplesMQ.Shared.pdb" target="lib\net451" />
+    </files>
+</package>
