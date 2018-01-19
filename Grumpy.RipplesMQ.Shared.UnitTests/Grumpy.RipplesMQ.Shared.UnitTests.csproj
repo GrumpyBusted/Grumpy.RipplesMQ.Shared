@@ -42,5 +42,10 @@
       <Name>Grumpy.RipplesMQ.Shared</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grumpy.TestTools">
+      <Version>1.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
