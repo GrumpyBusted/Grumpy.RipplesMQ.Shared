@@ -57,7 +57,7 @@
     <Compile Include="Messages\SubscribeHandlerRegisterReplyMessage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Grumpy.Ripples.Shared.nuspec">
+    <None Include="Grumpy.RipplesMQ.Shared.nuspec">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
