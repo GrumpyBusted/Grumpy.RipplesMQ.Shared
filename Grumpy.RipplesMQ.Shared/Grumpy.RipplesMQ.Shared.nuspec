@@ -5,10 +5,7 @@
         <version>0</version>
         <title>Grumpy.RipplesMQ.Shared</title>
         <description>Shared DTOs and functionality between the client and server packages of RipplesMQ</description>
-        <summary>
-            This is the definition of the message DTOs used to communicate between the Message Broker Client and Server. For
-            internal use only.
-        </summary>
+        <summary>This is the definition of the message DTOs used to communicate between the Message Broker Client and Server. For internal use only.</summary>
         <tags>ripplesmq nuget internal-api</tags>
         <authors>Anders Busted-Janum</authors>
         <owners>GrumpyBusted</owners>
