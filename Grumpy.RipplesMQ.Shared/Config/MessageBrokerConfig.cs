@@ -11,6 +11,6 @@ namespace Grumpy.RipplesMQ.Shared.Config
         /// <summary>
         /// Message Broker Queue Name
         /// </summary>
-        public static string LocaleQueueName => "Grumpy.MessageBroker.Locale";
+        public static string LocaleQueueName => "ripplesmq.messagebroker.locale";
     }
 }

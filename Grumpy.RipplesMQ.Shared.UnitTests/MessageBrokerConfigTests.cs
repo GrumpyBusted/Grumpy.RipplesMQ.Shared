@@ -9,7 +9,7 @@ namespace Grumpy.RipplesMQ.Shared.UnitTests
         [Fact]
         public void LocaleQueueShouldBeCorrect()
         {
-            MessageBrokerConfig.LocaleQueueName.Should().Be("Grumpy.MessageBroker.Locale");
+            MessageBrokerConfig.LocaleQueueName.Should().Be("ripplesmq.messagebroker.locale");
         }
     }
 }
