@@ -21,11 +21,6 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         public string RequesterServiceName { get; set; }
 
         /// <summary>
-        /// Instance Name
-        /// </summary>
-        public string RequesterInstanceName { get; set; }
-
-        /// <summary>
         /// Request Id
         /// </summary>
         public string RequestId { get; set; }

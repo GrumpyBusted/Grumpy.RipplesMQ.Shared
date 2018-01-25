@@ -21,10 +21,6 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         public string PublisherServiceName { get; set; }
 
         /// <summary>
-        /// Instance Name
-        /// </summary>
-        public string PublisherInstanceName { get; set; }
-        /// <summary>
         /// Server Name
         /// </summary>
         public string HandlerServerName { get; set; }
@@ -33,11 +29,6 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         /// Service Name
         /// </summary>
         public string HandlerServiceName { get; set; }
-
-        /// <summary>
-        /// Instance Name
-        /// </summary>
-        public string HandlerInstanceName { get; set; }
 
         /// <summary>
         /// Message Id

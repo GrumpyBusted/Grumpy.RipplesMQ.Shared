@@ -21,11 +21,6 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         public string MessageBrokerServiceName { get; set; }
 
         /// <summary>
-        /// Reply From Message Broker Instance Name
-        /// </summary>
-        public string MessageBrokerInstanceName { get; set; }
-        
-        /// <summary>
         /// Message Id
         /// </summary>
         public string MessageId { get; set; }
