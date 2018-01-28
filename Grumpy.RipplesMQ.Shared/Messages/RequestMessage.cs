@@ -38,7 +38,12 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         /// <summary>
         /// Message Body
         /// </summary>
-        public object Body { get; set; }
+        public string MessageBody { get; set; }
+        
+        /// <summary>
+        /// Message Type
+        /// </summary>
+        public Type MessageType { get; set; }
 
         /// <summary>
         /// Registration Request Send from Message Bus Time
