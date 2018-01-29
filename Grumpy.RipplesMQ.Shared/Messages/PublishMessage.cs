@@ -43,7 +43,7 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         /// <summary>
         /// Message Type
         /// </summary>
-        public Type MessageType { get; set; }
+        public string MessageType { get; set; }
        
         /// <summary>
         /// Reply Queue Name
