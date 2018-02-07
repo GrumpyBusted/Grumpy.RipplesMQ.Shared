@@ -39,6 +39,7 @@
     <Compile Include="Config\MessageBrokerConfig.cs" />
     <Compile Include="Messages\MessageBusServiceHandshakeMessage.cs" />
     <Compile Include="Messages\MessageBusServiceRegisterMessage.cs" />
+    <Compile Include="Messages\MessageBusServiceHandshakeReplyMessage.cs" />
     <Compile Include="Messages\MessageBusServiceRegisterReplyMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Messages\PublishMessage.cs" />

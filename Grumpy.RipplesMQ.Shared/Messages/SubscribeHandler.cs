@@ -15,6 +15,11 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         public string Topic { get; set; }
         
         /// <summary>
+        /// Message Type
+        /// </summary>
+        public string Type { get; set; }
+        
+        /// <summary>
         /// Subscriber Name
         /// </summary>
         public string Name { get; set; }

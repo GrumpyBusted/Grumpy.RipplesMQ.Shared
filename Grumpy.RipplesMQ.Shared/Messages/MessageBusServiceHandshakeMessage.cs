@@ -22,9 +22,14 @@ namespace Grumpy.RipplesMQ.Shared.Messages
         public string ServiceName { get; set; }
 
         /// <summary>
-        /// Message Broker Handshake Time
+        /// Handshake Send Time
         /// </summary>
-        public DateTimeOffset HandshakeDateTime { get; set; }
+        public DateTimeOffset SendDateTime { get; set; }
+
+        /// <summary>
+        /// Reply Queue Name
+        /// </summary>
+        public string ReplyQueue { get; set; }
 
         /// <summary>
         /// List of active Subscribe Handler
